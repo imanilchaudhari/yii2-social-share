@@ -28,4 +28,14 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \imanilchaudhari\socialshare\Share::widget(); ?>```
+<?= \imanilchaudhari\socialshare\ShareBar::widget([
+        'style'=>'horizontal',
+        'networks' => ['facebook','googleplus','linkedin','twitter'],
+		'data_via'=>'imanilchaudhari', //twitter username (for twitter only, if exists else leave empty)
+]); ?>
+```
+
+About
+-------
+
+This is replica of [SocialShareButton](http://www.yiiframework.com/extension/social-share-button) by [Yii Expert](https://yiiexpert.github.io).
