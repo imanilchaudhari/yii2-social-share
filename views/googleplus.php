@@ -1,5 +1,5 @@
 <?php
-	if($this->style == 'vertical')
+	if($style == 'vertical')
 		$data_type = 'vertical-bubble';
 	else
 		$data_type = 'bubble';

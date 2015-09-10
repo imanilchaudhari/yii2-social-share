@@ -10,13 +10,13 @@ class ShareBar extends \yii\base\Widget
     /**
 	 * @var string box alignment - horizontal, vertical
 	 */
-	public $style='horizontal';
+	public $style;
 	
 	
 	/**
 	 * @var string twitter username - imanilchaudhari
 	 */
-	public $data_via='';
+	public $data_via;
 
 
 	/**
@@ -34,17 +34,17 @@ class ShareBar extends \yii\base\Widget
 	 */
      
     public function init(){
-		parent::init();
+		parent::init();      
 	}
      
      
     public function run()
-    {
+    {            
         $rendered = '';
 		foreach($this->networks as $params):
-			$rendered .= $this->render($params);
+			$rendered .= $this->render($params, ['style' => $this->style, 'data_via' => $this->data_via]);
         endforeach;
         
-		return $this->render('sharebar', array('rendered'=>$rendered));
+		return $this->render('sharebar', ['rendered'=>$rendered]);
     }
 }

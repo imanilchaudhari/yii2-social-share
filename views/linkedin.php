@@ -1,5 +1,5 @@
 <?php
-	if($this->style == 'vertical')
+	if($style == 'vertical')
 		$data_type = 'top';
 	else
 		$data_type = 'right';

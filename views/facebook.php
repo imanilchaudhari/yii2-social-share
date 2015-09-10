@@ -1,5 +1,5 @@
 <?php
-	if($this->style == 'vertical')
+	if($style == 'vertical')
 		$data_type = 'box_count';
 	else
 		$data_type = 'button_count';
