@@ -1,6 +1,6 @@
-Yii2 social share- A beautiful social share bar for yii2.
+Yii2 social share- A beautiful social share buttons for yii2.
 =========================================================
-This is a social share bar for yii2 projects.
+This is a social share buttons for yii2 projects.
 
 Installation
 ------------
@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \imanilchaudhari\socialshare\ShareBar::widget([
+<?= \imanilchaudhari\socialshare\ShareButton::widget([
         'style'=>'horizontal',
         'networks' => ['facebook','googleplus','linkedin','twitter'],
 		'data_via'=>'imanilchaudhari', //twitter username (for twitter only, if exists else leave empty)
@@ -38,4 +38,4 @@ Once the extension is installed, simply use it in your code by  :
 About
 -------
 
-This is replica of [SocialShareButton](http://www.yiiframework.com/extension/social-share-button) by [Yii Expert](https://yiiexpert.github.io).
+This is a replica of [SocialShareButton](http://www.yiiframework.com/extension/social-share-button) by [Yii Expert](https://yiiexpert.github.io).

@@ -5,7 +5,7 @@ namespace imanilchaudhari\socialshare;
 /**
  * This is just an example.
  */
-class ShareBar extends \yii\base\Widget
+class ShareButton extends \yii\base\Widget
 {
     /**
 	 * @var string box alignment - horizontal, vertical
@@ -45,6 +45,6 @@ class ShareBar extends \yii\base\Widget
 			$rendered .= $this->render($params, ['style' => $this->style, 'data_via' => $this->data_via]);
         endforeach;
         
-		return $this->render('sharebar', ['rendered'=>$rendered]);
+		return $this->render('sharebutton', ['rendered'=>$rendered]);
     }
 }
