@@ -14,4 +14,4 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-share-button" data-href="<?php echo Yii::$app->request->absoluteUrl; ?>" data-width="200" data-type="<?=$data_type?>"></div>
+<div class="fb-share-button" data-href="<?php echo Yii::$app->request->absoluteUrl; ?>" data-width="200" data-type="<?=$data_type?>" style="vertical-align: top;"></div>
