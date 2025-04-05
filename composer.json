@@ -2,7 +2,7 @@
     "name": "imanilchaudhari/yii2-social-share",
     "description": "This is a social share bar for yii2 projects.",
     "type": "yii2-extension",
-    "keywords": ["yii2"," extension"," social"," social share"," yii2 social"],
+    "keywords": ["yii2", " extension", " social", " social share", " yii2 social"],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
             "email": "imanilchaudhari@gmail.com"
         }
     ],
-    "repositories":[
+    "repositories": [
         {
             "type": "git",
             "url": "https://github.com/imanilchaudhari/yii2-social-share.git"
